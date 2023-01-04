@@ -11,6 +11,9 @@
 <br> We use a **ternary operator** when we want to simplify an `if...else` statement. <br>
 <br> `condition ? exprIfTrue : exprIfFalse`
 
+`js
+if (true) ? console.log("Its litt") : console.log("It's dim");
+`
 4. What is the difference between using the _strict_ and _non-strict_ equality operators?
 <br> The **non-strict** equality operator simply compares two values and checks whether or not they are equivalent in value.
 The **strict** equality operator checks if two values share the same data type as well as value. 
